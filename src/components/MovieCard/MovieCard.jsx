@@ -5,11 +5,7 @@ export const MovieCard = ({ movie }) => (
   <div className="card" data-cy="Movie">
     <div className="card-image">
       <figure className="image is-4by3">
-        <img
-          data-cy="MovieImage"
-          src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
-          alt="Film logo"
-        />
+        <img data-cy="MovieImage" src={movie.imgUrl} alt="Film logo" />
       </figure>
     </div>
 
